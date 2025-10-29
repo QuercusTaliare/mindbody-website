@@ -1,0 +1,28 @@
+.resources {
+    background-color: $secondary;
+    padding: 0 20px 10px;
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    h2 {
+        padding: 100px 0 60px 0;
+    }
+
+    h3 {
+        padding: 30px 0 10px 0;
+    }
+
+    a {
+        text-decoration: underline $highlight;
+    }
+
+    a:hover {
+        color: $highlight;
+    }
+
+    li {
+        margin: 0 0 10px 0;
+    }
+}

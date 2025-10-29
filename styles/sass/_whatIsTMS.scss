@@ -1,0 +1,136 @@
+.whatIsTMS {
+
+  background: $secondary;
+
+  h2 {
+    text-align: center;
+    padding: 100px 0 60px 0;
+  }
+
+  h2 span {
+    position: relative;
+    z-index: 10;
+
+    &::before {
+      @include triangle;
+      border-top: 100px solid transparent;
+      border-left: 100px solid $primary-light;
+      transform: rotate(270deg);
+      top: -40px;
+      right: -10px;
+      z-index: -10;
+    }
+
+    &::after {
+      @include squiggle;
+      top: 0px;
+      right: -60px;
+    }
+
+
+  }
+
+  .project {
+    display: flex;
+    padding: 50px 0 150px 0;
+  }
+
+  .project:nth-child(odd) {
+    background: $secondary-light;
+  }
+
+  .project:nth-child(even) {
+    background: $secondary;
+  }
+
+  .projectOne,
+  .projectThree {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .projectTextSide,
+  .projectImgSide {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .projectImgContainer {
+    width: 90%;
+    // border: solid 5px $dark-grey;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .projectImgContainer i {
+    color: $primary;
+    font-size: 9rem;
+  }
+
+  .projectText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3vw;
+  }
+
+  .projectText p {
+    width: 90%;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    margin: 10px 0 0 0;
+  }
+
+  .projectText a {
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      color: $highlight;
+    }
+  }
+
+  .projectLinks {
+    display: flex;
+  }
+
+  .projectLinks li {
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .projectLinks a {
+    text-decoration: underline $primary;
+    text-transform: uppercase;
+    padding: 10px;
+
+    &:hover,
+    &:focus {
+      text-decoration-color: $highlight;
+    }
+  }
+
+  .projectSkills {
+    display: flex;
+  }
+
+  .projectSkills li {
+    padding: 10px;
+  }
+
+  .projectSkills i {
+    font-size: 3rem;
+  }
+
+  .projectSkills img {
+    width: 3rem;
+  }
+
+  .arrowContainer {
+    padding: 10px 0;
+    background-color: $secondary-light;
+  }
+
+} // Portfolio styles ends

@@ -1,0 +1,37 @@
+// FONTS
+$heading-font: 'Spartan', sans-serif;
+$main-font: 'Ubuntu', sans-serif;
+
+// COLOURS
+$primary: #05B6C3;
+$primary-light: #40BEC8;
+$secondary: #C4FBFF;
+$secondary-light: #D0F2F4;
+$highlight: #ef4c0a;
+$dark-grey: #3F3F48;
+$off-black: #242424;
+$off-white: #f8f8ff;
+
+// TRIANGLES 
+
+@mixin triangle {
+  content: "";
+  width: 0; 
+  height: 0; 
+  position: absolute;
+}
+
+// SQUIGGLY LINES
+
+@mixin squiggle {
+  display: block;
+  content: "";
+  background-image: url(../assets/icons8-squiggly-line-100-dark-grey.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 100px;
+  height: 100px;
+}

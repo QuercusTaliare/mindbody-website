@@ -1,0 +1,92 @@
+footer {
+
+  background: $primary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+
+  .disclaimer {
+    max-width: 800px;
+    margin: 30px 0;
+  }
+
+  .disclaimer h4 {
+    text-align: center;
+  }
+
+  .disclaimer p {
+    padding: 0 10px;
+  }
+
+  .personal {
+    padding: 10px 0;
+  }
+
+  .personal p {
+    font-size: 1.5rem;
+  }
+
+  .personal .love {
+    color: red;
+    font-size: 2rem;
+  }
+
+  .thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .thanks button {
+    font-size: 1.6rem;
+    text-align: center;
+    background: $highlight;
+    font-family: $main-font;
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+  }
+
+  .thanksContainer {
+    position: relative;
+
+    &:hover .attributions,
+    &:focus-within .attributions {
+      display: block;
+    }
+  }
+
+  .attributions {
+    position: absolute;
+    display: none;
+    background: $secondary;
+    min-width: 160px;
+    padding: 10px;
+    z-index: 10;
+    bottom: 28px;
+    left: 0;
+    border-radius: 4px;
+    border: solid 1px black;
+  }
+
+  .thanks .icons,
+  .thanks .photos {
+    padding: 20px 0 0 0;
+  }
+
+  .thanks p {
+    padding: 5px;
+  }
+
+  .thanks a {
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      text-decoration-color: $highlight;
+    }
+  } 
+
+} // Footer style ends

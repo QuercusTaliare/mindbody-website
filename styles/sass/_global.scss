@@ -53,6 +53,10 @@ a {
     padding: 0 3vw;
 }
 
+.nowrap {
+    white-space: nowrap;
+}
+
 // Animation discovered on this Stack Overflow thread
 // https://stackoverflow.com/questions/23985018/simple-css-animation-loop-fading-in-out-loading-text
 @keyframes flickerAnimation {

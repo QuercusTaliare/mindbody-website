@@ -274,6 +274,10 @@ a {
   padding: 0 3vw;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 @keyframes flickerAnimation {
   0% {
     opacity: 1;
@@ -560,6 +564,9 @@ header .arrowContainer {
   top: 0px;
   right: -60px;
 }
+.whatIsTMS h3 {
+  text-align: center;
+}
 .whatIsTMS .project {
   display: flex;
   padding: 50px 0 150px 0;
@@ -712,8 +719,7 @@ header .arrowContainer {
 .doIHaveTMS ul.diagnoses li {
   flex: 1 1 20%;
   min-height: 30px;
-  background-color: #05B6C3;
-  color: white;
+  background-color: #C4FBFF;
   text-align: center;
 }
 .doIHaveTMS ul.success {
@@ -730,8 +736,8 @@ header .arrowContainer {
   padding: 0px;
 }
 .doIHaveTMS a {
-  -webkit-text-decoration: underline teal;
-          text-decoration: underline teal;
+  -webkit-text-decoration: underline #ef4c0a;
+          text-decoration: underline #ef4c0a;
 }
 .doIHaveTMS a:hover {
   color: #ef4c0a;

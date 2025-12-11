@@ -880,7 +880,21 @@ header .arrowContainer {
 }
 .contact .contactTitle p {
   text-align: center;
-  padding: 10px 30px 30px 30px;
+  padding: 10px 30px 20px 30px;
+  z-index: 100;
+}
+.contact .contactTitle p.limitedOffer {
+  font-weight: 700;
+}
+.contact .contactTitle .pEmphasis {
+  color: #ef4c0a;
+}
+.contact .contactTitle a {
+  -webkit-text-decoration: underline #ef4c0a;
+          text-decoration: underline #ef4c0a;
+}
+.contact .contactTitle a:hover, .contact .contactTitle a:focus {
+  color: #ef4c0a;
 }
 .contact .contactTitle .emailWrap {
   display: inline-block;

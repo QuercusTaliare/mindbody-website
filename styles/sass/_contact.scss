@@ -49,9 +49,25 @@
 
   .contactTitle p {
     text-align: center;
-    padding: 10px 30px 30px 30px;
-    // font-weight: 700;
-    // font-size: 2.5rem;
+    padding: 10px 30px 20px 30px;
+    z-index: 100;
+  }
+
+  .contactTitle p.limitedOffer {
+    font-weight: 700;
+  }
+
+  .contactTitle .pEmphasis {
+    color: $highlight;
+  }
+
+  .contactTitle a {
+    text-decoration: underline $highlight;
+
+    &:hover,
+    &:focus {
+      color: $highlight;
+    }
   }
 
   .contactTitle .emailWrap {

@@ -526,6 +526,23 @@ header .arrowContainer {
 .about .arrowContainer {
   padding: 10px 0;
 }
+.about .contactButton {
+  margin-top: 20px;
+}
+.about .contactButton a {
+  background: #ef4c0a;
+  padding: 15px 40px;
+  border-radius: 4px;
+  border: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.about .contactButton a:hover, .about .contactButton a:focus {
+  color: white;
+}
 
 .whatIsTMS {
   background: #C4FBFF;
@@ -1216,6 +1233,9 @@ footer .thanks a:hover, footer .thanks a:focus {
   }
   .about .circleContent p {
     font-size: 1.6rem;
+  }
+  .about .contactButton a {
+    font-size: 1.2rem;
   }
   .whatIsTMS .project {
     padding: 20px 0 80px 0;

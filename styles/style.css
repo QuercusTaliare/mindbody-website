@@ -889,11 +889,14 @@ header .arrowContainer {
 .contact .contactTitle .pEmphasis {
   color: #ef4c0a;
 }
-.contact .contactTitle a {
+.contact .contactTitle a,
+.contact .contactForm a {
   -webkit-text-decoration: underline #ef4c0a;
           text-decoration: underline #ef4c0a;
 }
-.contact .contactTitle a:hover, .contact .contactTitle a:focus {
+.contact .contactTitle a:hover, .contact .contactTitle a:focus,
+.contact .contactForm a:hover,
+.contact .contactForm a:focus {
   color: #ef4c0a;
 }
 .contact .contactTitle .emailWrap {
@@ -969,6 +972,10 @@ header .arrowContainer {
 .contact form button:hover, .contact form button:focus {
   color: white;
 }
+.contact form .formPrivacy {
+  text-align: center;
+  margin-top: 10px;
+}
 
 footer {
   background: #05B6C3;
@@ -976,6 +983,13 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 15px 0;
+}
+footer a {
+  -webkit-text-decoration: underline #ef4c0a;
+          text-decoration: underline #ef4c0a;
+}
+footer a:hover, footer a:focus {
+  color: #ef4c0a;
 }
 footer .disclaimer {
   max-width: 800px;

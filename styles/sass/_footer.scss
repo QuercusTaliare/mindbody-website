@@ -6,6 +6,15 @@ footer {
   align-items: center;
   padding: 15px 0;
 
+  a {
+    text-decoration: underline $highlight;
+
+    &:hover,
+    &:focus {
+      color: $highlight;
+    }
+  }
+  
   .disclaimer {
     max-width: 800px;
     margin: 30px 0;
@@ -18,6 +27,8 @@ footer {
   .disclaimer p {
     padding: 0 10px;
   }
+
+  
 
   .personal {
     padding: 10px 0;

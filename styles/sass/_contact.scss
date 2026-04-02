@@ -61,7 +61,8 @@
     color: $highlight;
   }
 
-  .contactTitle a {
+  .contactTitle a,
+  .contactForm a {
     text-decoration: underline $highlight;
 
     &:hover,
@@ -157,5 +158,10 @@
     &:focus {
       color: white;
     }
+  }
+
+  form .formPrivacy {
+    text-align: center;
+    margin-top: 10px;
   }
 } // Contact style ends

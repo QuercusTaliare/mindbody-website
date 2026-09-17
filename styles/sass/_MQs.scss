@@ -172,6 +172,12 @@
 
   } // Header 650px ends
 
+  .about {
+    .training ul {
+      flex-direction: column;
+    }
+  }
+
   .doIHaveTMS {
     ul {
       flex-direction: column;

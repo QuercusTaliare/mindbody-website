@@ -128,21 +128,25 @@
 
   .training {
     flex: auto 1 1;
+    margin: 0 0 70px 0;
   }
 
   .circleContent h2,
   .training h3,
+  .membership h3,
   .aboutSecond .aboutCTAtext,
   .contactButton {
     text-align: center;
   }
 
-  .training ul {
+  .training ul,
+  .membership ul {
     display: flex;
     justify-content: center;
   }
 
-  .training li {
+  .training li,
+  .membership li {
     padding: 20px;
     text-align: center;
   }
@@ -164,6 +168,11 @@
 
   .training .trainingImgContainer .prtLogo {
     width: 50%;
+  }
+
+  .membership .memberImgContainer {
+    width: 200px;
+    margin: 0 auto;
   }
 
   .aboutSecond .aboutCTA {

@@ -484,18 +484,22 @@ header .arrowContainer {
 }
 .about .training {
   flex: auto 1 1;
+  margin: 0 0 70px 0;
 }
 .about .circleContent h2,
 .about .training h3,
+.about .membership h3,
 .about .aboutSecond .aboutCTAtext,
 .about .contactButton {
   text-align: center;
 }
-.about .training ul {
+.about .training ul,
+.about .membership ul {
   display: flex;
   justify-content: center;
 }
-.about .training li {
+.about .training li,
+.about .membership li {
   padding: 20px;
   text-align: center;
 }
@@ -512,6 +516,10 @@ header .arrowContainer {
 }
 .about .training .trainingImgContainer .prtLogo {
   width: 50%;
+}
+.about .membership .memberImgContainer {
+  width: 200px;
+  margin: 0 auto;
 }
 .about .aboutSecond .aboutCTA {
   margin-top: 30px;
@@ -1255,6 +1263,9 @@ footer .thanks a:hover, footer .thanks a:focus {
   .doIHaveTMS h2 span::after,
   .contact .contactTitle h2 span::after {
     display: none;
+  }
+  .about .aboutImageContainer {
+    width: auto;
   }
   .about .circleContent h2 {
     font-size: 3rem;

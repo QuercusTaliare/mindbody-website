@@ -502,6 +502,11 @@ header .arrowContainer {
 .about .membership li {
   padding: 20px;
   text-align: center;
+  margin: 20px;
+  min-height: 200px;
+  background-color: #D0F2F4;
+  border: 1px solid #40BEC8;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
 .about .training .trainingItem {
   font-weight: 600;

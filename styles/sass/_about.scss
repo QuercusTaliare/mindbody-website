@@ -149,6 +149,15 @@
   .membership li {
     padding: 20px;
     text-align: center;
+    margin: 20px;
+    min-height: 200px;
+    background-color: $secondary-light;
+    border: 1px solid $primary-light;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+  }
+
+  .training li {
+    
   }
 
   .training .trainingItem {
